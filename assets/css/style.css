@@ -1,0 +1,64 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+
+.nav-link{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1;
+    font-weight: 600;
+    color: #0D0A19;
+    margin-left: 20px;
+}
+.signup{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1;
+    font-weight: 600;
+    color: #9A9EA7;
+}
+.signup img{
+    width: 32px;
+    height: auto;
+    padding: 5px 8px;
+    background-color: #F5F6F7;
+    border-radius: 10px;
+    margin-right: 9px;
+}
+
+.banner_area{
+    background-image: url(../imgaes/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+.heading h1{
+    max-width: 720px;
+    margin: auto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 140px 0 26px 0;
+}
+.heading p{
+    max-width: 529px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
