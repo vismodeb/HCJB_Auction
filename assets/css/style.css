@@ -8,7 +8,13 @@
 body{
     font-family: 'Inter', sans-serif !important;
 }
+h1,h2,h3,h4,h5,h6,ul,a,p{
+    margin: 0;
+    padding: 0;
+}
 
+/*   end navbar css
+******************************/
 .nav-link{
     font-size: 16px;
     line-height: 24px;
@@ -32,7 +38,11 @@ body{
     border-radius: 10px;
     margin-right: 9px;
 }
+/*   end navbar css
+******************************/
 
+/*   start banner area css
+******************************/
 .banner_area{
     background-image: url(../imgaes/Background.png);
     background-repeat: no-repeat;
@@ -60,5 +70,67 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
+/*   end banner area css
+******************************/
 
+/*   start card area css
+******************************/
+.card_contain {
+    max-width: 945px;
+    margin: auto;
+    padding: 18px 0px 14px 18px;
+    margin-top: -44px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+}
+.card_border_right{
+    border-right: 1px solid #EDE8E9;
+}
+.single_card p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-left: 10px;
+}
+.single_card .form-select{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+}
+.single_card .SingleCard_SelectFirst{
+    color: #0D0A19;
+}
+.single_card .SingleCard_SelectSecent{
+    margin-top: 6px;
+    color: #9A9EA7;
+}
+.single_card  .form-select:focus {
+    box-shadow: none;
+}
+.single_card .btn1{
+    padding: 12px 22px;
+    color: #FFFFFF;
+    background: #7963F0;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.single_card .btn1 img {
+    width: 13px;
+    margin: 0 6px 4px 0px;
+}
+/*   end card area css
+******************************/
 
