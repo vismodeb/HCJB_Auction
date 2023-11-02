@@ -134,3 +134,39 @@ h1,h2,h3,h4,h5,h6,ul,a,p{
 /*   end card area css
 ******************************/
 
+/*   start mercedes area css
+******************************/
+.mercedes_area{
+    padding: 90px 0;
+}
+.main_mercedes_contain {
+    max-width: 997px;
+    margin: auto;
+}
+.mercedes_one img{
+    max-width: 190px;
+    margin-top: 7px;
+}
+.mercedes_2 img{
+    margin-left: 40%;
+    max-width: 38px;
+}
+.mercedes_3 img{
+    max-width: 150px;
+    margin-top: 12px;
+}
+.mercedes_4 img{
+    margin-left: 30%;
+    max-width: 52px;
+}
+.mercedes_5 img{
+    max-width: 160px;
+    margin-top: 8px;
+}
+.mercedes_6 img{
+    margin-left: 20%;
+    max-width: 75px;
+}
+/*   end mercedes area css
+******************************/
+
