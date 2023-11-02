@@ -6,13 +6,35 @@
     padding: 0;
 }
 body{
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif !important;
 }
 h1,h2,h3,h4,h5,h6,ul,a,p{
     margin: 0;
     padding: 0;
 }
-
+img{
+    width: 100%;
+}
+.btn2{
+    padding: 12px 25px;
+    color: #FFFFFF;
+    background: #7963F0;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 360ms ease;
+}
+.btn2:hover{
+    color: #FFFFFF;
+    background: #2905f8;
+}
 /*   end navbar css
 ******************************/
 .nav-link{
@@ -168,5 +190,156 @@ h1,h2,h3,h4,h5,h6,ul,a,p{
     max-width: 75px;
 }
 /*   end mercedes area css
+******************************/
+
+/*   start services area css
+******************************/
+.services_area{}
+.main_service_contain{}
+.service_heading{
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    margin-bottom: 46px;
+    color: #0D0A19;
+}
+.text_18px{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 700;
+}
+.text_p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.service_contain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.single_service_item{
+    max-width: 360px;
+    padding: 25px;
+    border: 1px solid #E4E6E8;
+    border-radius: 10px;
+}
+.single_service_item img{
+    max-width: 310px;
+    margin: auto;
+}
+.service_box1{
+    display: flex;
+    gap: 12px;
+}
+.serviceBox1_top{
+    padding: 20px 0 24px 0;
+}
+.service_img{
+    padding: 8px;
+    border: 1px solid #E4E6E8;
+    border-radius: 5px;
+}
+.service_text h4{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.service_text p{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.service_box2{
+    display: flex;
+    justify-content: space-between;
+}
+.service_1{
+    position: relative;
+}
+.service_1::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 25px;
+    top: 9px;
+    left: -5px;
+    background: url(../imgaes/service/Line\ 4.svg) no-repeat scroll center center / cover;
+}
+/*   end services area css
+******************************/
+
+/*   start onlineAuto area css
+******************************/
+.onlineAuto_area{
+    padding: 100px 0;
+}
+.onlineAuto_contain h2{
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.onlineAuto_contain h6{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #0D0A19;
+}
+.onlineAuto_box1 span{
+    display: inline-block;
+    padding: 18px;
+    color: #0D0A19;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 36px;
+    letter-spacing: -0.15px;
+    border: 1px solid #E4E6E8;
+    border-radius: 10px;
+    margin: 22px 0;
+}
+.onlineAuto_contain p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #9A9EA7;
+    margin-bottom: 40px;
+}
+.btn3{
+    padding: 15px 25px;
+    color: #9A9EA7;
+    background: #e6e4f1;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 360ms ease;
+    margin-top: 30px;
+}
+.btn3:hover{
+    color: #9A9EA7;
+}
+.btn3 img{
+    max-width: 18px;
+}
+.onlineAuto_ing img {
+    max-width: 643px;
+}
+/*   end onlineAuto area css
 ******************************/
 

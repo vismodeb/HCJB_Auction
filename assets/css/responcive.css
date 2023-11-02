@@ -1,3 +1,8 @@
+@media all and (max-width:1200px){
+    .btn2 {
+        padding: 12px 20px;
+    }
+}
 @media all and (max-width:991px){
     .heading h1 {
         max-width: 670px;
@@ -15,6 +20,9 @@
     }
     .single_card .btn1 {
         padding: 10px;
+    }
+    .service_contain{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 @media all and (max-width:768px){
@@ -45,5 +53,14 @@
     }
     .card_button{
         text-align: center;
+    }
+    .service_contain{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .single_service_item {
+        margin: auto;
+    }
+    .onlineAuto_ing img {
+        margin-top: 50px;
     }
 }
