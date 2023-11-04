@@ -24,6 +24,9 @@
     .service_contain{
         grid-template-columns: repeat(2,1fr);
     }
+    .find_nav {
+        margin-right: 0px;
+    }
 }
 @media all and (max-width:768px){
     .banner_area {
@@ -62,5 +65,11 @@
     }
     .onlineAuto_ing img {
         margin-top: 50px;
+    }
+    .heading_find {
+        flex-direction: column;
+    }
+    .find_nav{
+        margin-top: 30px;
     }
 }

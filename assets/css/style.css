@@ -16,10 +16,8 @@ h1,h2,h3,h4,h5,h6,ul,a,p{
 img{
     width: 100%;
 }
-.btn2{
+.btn0{
     padding: 12px 25px;
-    color: #FFFFFF;
-    background: #7963F0;
     font-size: 14px;
     line-height: 21px;
     letter-spacing: -0.1px;
@@ -30,6 +28,10 @@ img{
     text-decoration: none;
     display: inline-block;
     transition: 360ms ease;
+}
+.btn2{
+    color: #FFFFFF;
+    background: #7963F0;
 }
 .btn2:hover{
     color: #FFFFFF;
@@ -139,15 +141,11 @@ img{
     padding: 12px 22px;
     color: #FFFFFF;
     background: #7963F0;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.1px;
-    font-weight: 700;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    text-decoration: none;
     display: inline-block;
+}
+.single_card .btn1:hover{
+    color: #FFFFFF;
+    background: #2500f5;
 }
 .single_card .btn1 img {
     width: 13px;
@@ -341,5 +339,74 @@ img{
     max-width: 643px;
 }
 /*   end onlineAuto area css
+******************************/
+
+/*   start find area css
+******************************/
+.find_area{
+    padding-bottom: 100px;
+}
+.find_nav .btn4{
+    color: #9A9EA7;
+}
+.find_nav .active,
+.find_nav .btn4:hover{
+    border: 1px solid #EEEEEE;
+    color: #0D0A19;
+}
+.popular_text{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.finxbox_img {
+    padding: 15px;
+    border-radius: 10px;
+    transition: 360ms ease;
+}
+.all_find_area .active,
+.all_find_area .finxbox_img:hover{
+    background: #F5F6F7;
+}
+.finxbox_img img{
+    max-width: 32px;
+    margin: auto;
+}
+.finxbox_icon {
+    margin-left: 135px;
+    color: #7963F0;
+}
+.find_title{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.finxbox_text p{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+    color: #9A9EA7;
+}
+.other_item h4{
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #0D0A19;
+}
+.other_item p{
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 300;
+    color: #0D0A19;
+}
+.find_nav {
+    margin-right: 20px;
+}
+/*   end find area css
 ******************************/
 
