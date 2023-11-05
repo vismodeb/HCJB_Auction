@@ -410,3 +410,37 @@ img{
 /*   end find area css
 ******************************/
 
+/*   start footer area css
+******************************/
+.footer_area{
+    padding: 56px;
+    background: #F5F6F7;
+}
+.footer_heading {
+    margin-left: 56px;
+}
+.footer_heading h4{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #0D0A19;
+    margin-bottom: 10px;
+}
+.footer_heading ul li{
+    list-style: none;
+}
+.footer_heading ul li a{
+    font-size: 14px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #9A9EA7;
+    text-decoration: none;
+    display: inline-block;
+    transition: 360ms ease;
+}
+.footer_heading ul li a:hover{
+    color: #2500f5;
+}
+/*   end footer area css
+******************************/
+

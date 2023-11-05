@@ -27,6 +27,9 @@
     .find_nav {
         margin-right: 0px;
     }
+    .footer_heading {
+        margin-left: 0px;
+    }
 }
 @media all and (max-width:768px){
     .banner_area {
