@@ -444,3 +444,37 @@ img{
 /*   end footer area css
 ******************************/
 
+/*   start footer bottom area css
+***********************************/
+.footer_bottom_area{
+    padding: 17px 0;
+    background: #FFFFFF;
+}
+.footer_same h4{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #0D0A19;
+}
+.f_text{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #9A9EA7;
+    letter-spacing: -0.1px;
+}
+.right_box1 i{
+    color: #9A9EA7;
+}
+.right_box1 p{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #9A9EA7;
+    letter-spacing: -0.1px;
+}
+.right_box1 span {
+    margin-bottom: 8px;
+}
+/*   end footer bottom area css
+***********************************/
